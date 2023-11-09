@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0 120px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(20, 1fr);
+    position: relative;
+    border: 1px solid #0000002c;
+
+}
+
+.board .boarddiv {
+
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #000;
+
+}
+
+.snakebody {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
